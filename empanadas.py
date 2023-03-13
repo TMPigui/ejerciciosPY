@@ -23,11 +23,11 @@ while option != 0:
 
     if(option == 1):
         empanada = {}
-        empanada = [id] = int(input('Digite el id de la empanada: '))
-        empanada = [nombre] = input('Digite el nombre de la empanada: ')
-        empanada = [precio] = float(input('Digite el precio de la empanada: '))
-        empanada = [popularidad] = int(input('Digite la popularidad de la empanada: '))
-        empanada = [fechavencimiento] = input('Digite la fecha de vencimiento de la empanada: ')
+        empanada = [id] = int(input('Digite el id de la empanada: ')),
+        empanada = [nombre] = input('Digite el nombre de la empanada: '),
+        empanada = [precio] = float(input('Digite el precio de la empanada: ')),
+        empanada = [popularidad] = int(input('Digite la popularidad de la empanada: ')),
+        empanada = [fechavencimiento] = input('Digite la fecha de vencimiento de la empanada: '),
         empanadas.append(empanada)
         print('Empanada registrada...')
 
@@ -45,11 +45,14 @@ while option != 0:
         empanadaBuscar = int(input('Ingrese el id de la empanada a buscar: '))
         for empanada in empanadas:
             if(empanada['id'] == empanadaBuscar):
-                print(f'El precio actual es {}')
+                print(f'El precio actual es {precio}')    
             else:
                 print('empanada encontrada')
     elif(option == 5):
-        pass
+        empanadaEliminar = int(input('Ingrese el id de la empanada a eliminar: '))
+        for empanada in empanadas:
+           if(empanada['id'] == empanadaEliminar):
+                empanada.remove()         
     elif(option == 0):
         pass
     else:
