@@ -2,14 +2,17 @@
 
 monedas = {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}
 moneda = input("Introduce una divisa: ")
-#eltitle() convierte primera letra de cada palabra de cadena a mayúsculas.
+#metodo get se utiliza para tneer valores entre claves en diccionarios
+print(monedas.get(moneda.title(), "La divisa no se ncuentra en nustros archivos intente con otra"))
+
+'''
+eltitle() convierte primera letra de cada palabra de cadena a mayúsculas.
 if moneda.title() in monedas:
     print(f"la divisa de la moneda {moneda} es {monedas[moneda.title]}")
 else:
     print("La divisa no se encuentrad")
 
-'''
-Forma con el metodo get
+
 monedas = {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}
 moneda = input("Introduce una divisa: ")
 print(monedas.get(moneda.title(), "La divisa no está."))

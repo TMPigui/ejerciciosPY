@@ -9,7 +9,10 @@ num = []
 for i in range(canNum):
     num.append((input("Digite un numero: ")))
 numeroUsuario = int(input(f"Digite el numero a buscar: "))
-
+if num[i] == num[i]:
+    print(f"El {numeroUsuario} si se encuentra ")
+else:
+    print(f"el {numeroUsuario} no se encuentra")
 print(num)
 
 

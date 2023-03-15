@@ -1,5 +1,5 @@
 '''
-Escribir un programa que almacene las asignaturas de un curso en una lista(Matemáticas, Física, Química, Historia y Lengua), pregunte la nota que a sacado en cada asignatura, despues la muestre por pantalla con el mensaje  En <asignatura> has sacado <nota> donde <asignatura> 
+Escribir un programa que almacene las asignaturas de un curso en una lista(Matemáticas, Física, Química, Historia y Lengua), pregunte la nota que a sacado en cada asignatura, despues la muestre por pantalla con el mensaje  En <asignatura> has sacado <nota> 
 '''
 
 
